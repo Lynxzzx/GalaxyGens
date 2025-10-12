@@ -1,0 +1,24 @@
+{
+  "name": "galaxy-gens-root",
+  "version": "1.0.0",
+  "description": "Galaxy Gen's - Gerador de Contas Premium",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ..",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "setup": "npm run install:all && cd backend && node scripts/createOwner.js && cd ..",
+    "start": "npm run dev"
+  },
+  "keywords": ["generator", "accounts", "galaxy", "gens", "premium"],
+  "author": "Lynx (t.me/lynxdevz)",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/galaxy-gens"
+  }
+}
