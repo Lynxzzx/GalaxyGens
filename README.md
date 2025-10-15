@@ -81,7 +81,7 @@ node scripts/createOwner.js
 
 **Credenciais do Owner:**
 - Usuário: `Lynx`
-- Senha: `eliezermito1`
+- Senha: `troca pela tua`
 
 ### 5. Inicie o sistema
 
